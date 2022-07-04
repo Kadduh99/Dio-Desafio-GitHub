@@ -1,0 +1,133 @@
+Introdução ao Git e ao GitHub
+
+	Git & GitHub
+
+		1 - Controle de Versão
+		2 - Armazenamento em nuvem
+		3 - Trabalho em equipe
+		4 - Melhorar seu código
+		5 - Reconhecimento
+
+		
+	Navegação básica no terminal & instalação.
+
+		O que vamos aprender?
+
+		- Mudar de pastas
+		- Listar as pastas
+		- Criar pastas/arquivos
+		- Deletar pastas/arquivos
+
+
+			Windows		Unix (linux e mac)
+			-cd			-cd
+			-dir			-ls
+			-mkdir		-mkdir
+			-del / rmdir	-rm -rf
+
+
+	Comandor: 
+
+		dir: Listas todas as pastas
+		cb nome da pasta: navegar entre as pastas
+		cd ..: voltar uma pasta
+		cls: limpar a tela 
+		mkdir: criar pasta
+		echo: faz um print do que for digitado no terminal e passa de novo ao usuario.
+		del nome da pasta: deleta a passa selecionada.
+		rmdir: apagar a pasta por completo.
+		mv nome do arquivo: mover o arquivo para uma pasta
+
+
+	Entendendo como o GIT funciona por baixo dos panos.
+
+		-SHA1
+		-Objetos fundamentais
+		-Sistea distribuídos
+		-Segurança
+
+
+		SHA1
+			A sigla SHA significa Secure Hash Algorithm (algoritmo de hash seguro), é
+			um conjunto de funções hash criptográficas projetadas pela NSA (agência de segurança nacional dos EUA).
+			A encriptaçãpo gera conjuntuo de characteres identificador de 40 dígitos.
+			É uma forma curta de representar um arquivo. 
+			
+		Objetos fundamentais
+
+			BLOBS, TREES, COMMITS
+
+				Blobs: o bloco basico de decomposição
+				
+				Tree: armazenagem de blobs, também guarda o nome do arquivo
+
+				Tree - Blob
+				     - Blob
+				     - Tree - Blod
+			
+				Commit: da significancia para as auterações que foram feitas.
+
+
+	Chaves SSH e Tokens
+
+		SSH:
+			Chave SSH:
+				
+				Criar um vinculo com seu pc ao GitHub: ssh-keygen -t ed25519 -C carled771@gmail.com
+
+			Clocar um repositorio no GitHub usando o SSH
+		
+				Copiar o codigo e usar no gitbash: git clone 
+
+		Tokens de acesso pessoal:
+
+			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
+
+
+	Primeiros comandos com o Git
+
+		-Iniciar o GIT
+		-Iniciar o versionamento 
+		-Criar um commit.
+
+			-git init: Iniciar um repositorio no Git.
+			-git add: Mover arquivos
+			-git commit: criar um commit.
+
+		Criando um repositório.
+
+			ls -a: mostar aquivos ocultos.
+
+		Adicionando um arquivo
+			
+			git add * : add commit
+			git commit -m "": dar significado as alterações.			
+
+
+
+	Crindo o primeiro repositorio no Github para compartilhar seu progresso.
+		
+		Passo 1 Introdução
+		Passo 2 Git/GiHub: Relembrando algumas coisinhas
+		Passo 3 Desafio ;)
+
+		
+
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,806 @@
+sinSantander Bootcamp Mobile Developer
+
+	
+		Primeiro Modulo:
+
+	O que são desafios de códigos?
+		
+		Tem como objeitov desenvolver o *pensamento computacional e raciocínio lógico* durante sua jornada. Essas habilidades são
+		essesnciais para o aumento da sua capacidade de resolver problemas (uma boa definição para aumento de senioridade).
+
+	O que é uma entrada ?
+		
+		nada mais é do que um conjuto de valores para conseguirmos resolver determindo problema.
+
+	Desafios de Projetos?
+
+		Têm como objeitvo promover a criação de um porftfólio de projetos consistente no GitHub.
+
+	GitHub e Git:
+		
+		Fork: Você pegar todo o codigo e trazer para o seu GitHub, usando como referencia para o codigo original.
+
+
+
+
+Introdução ao pensamento computacional:
+
+	Pensamento Computacional:
+
+		Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+		
+	Os 4 pilares do pensamento computacional:
+		
+		Decomposição: Dividir um problema complexo em subproblemas.
+
+		Reconhecimento de padrões: Identificar padrões ou tendências dentro de um contexto ou cotexto distintos.
+		
+		Abstração: Extrapolar o conceito do problema para uma forma generalista.
+		
+		Design de algoritmos: Automatizar / Definir passo a passo a solução do problema.
+
+
+			Processo Contínuo: 
+
+				* Definir uma solução
+				* Testar a solução						-> Refinamento -> Teste -> Análise ->
+				*Aperfeiçoamento da solução encontrada						
+
+
+	Habilidade Complementares:
+
+		Raciocínio Lógico: É uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema. (Habilidade de treinamento.)
+			
+			 				Indução Fenômeno observado = Leis e teorias = Indução
+				Classificação =	Dedução: Previsões e explicações = Leis e teorias = Dedução
+							bdução: Conclução -> Premissa = Ex. A grama está molhada, logo deve ter chovido. > Processo de investigação, Diagnósticos.
+
+
+			Inferência: Sintética = Adbução e Indução
+					Analítica = Dedução
+
+
+
+		Aperfeiçoamento: Melhoramento, Ato de aperfeiçoar, Aprimoramento, Refinamento > "A partir de uma solução, determinar pontos de melhora e refinamento."
+
+
+				Ato de aperfeiçõar = Encontrar solução enficiente = Melhor uso de recursos 
+							   Otimizar processos = Melhor uso de recursos 
+
+							   Simplificar linhas de códigos = Melhorar códigos e algoritmos
+							   Funções bem definidas = Melhorar códigos e algoritmos
+
+	
+	Pilares: Decomposição:
+	
+		Estratégia: Processo de quebrar e determinar partes menores e gerenciáveis = Análise
+
+				Estudar, explorar
+				"realizar exame detalhado"
+				Decomporem elementos constituíntes
+
+		Estratégia 2: Combinar os elementos recompondo o problema original = Síntese 
+
+
+				Processo de reconstrução
+				Fundiar os elementos de maneira coerente
+				Consiste em reunir elementos distintos em um único elemento
+
+		Estratégia
+		
+			Ordem de execução de tarefas menores = Sequêncial = Dependência entre tarefas. Executadas em "fila".
+									   Paralelo = Tarefas podem ser executadas concomitantamente. + Eficiência / - Tempo
+
+
+			Decomposição; Variáveis, Pequenos Problemas, Segmentação.
+				
+					* Não basta aplicar
+					* Desenvolver a decomposição "by yourself" 		"Maneira distintas de decompor o mesmo problema"
+
+		Como decompor? 
+			
+			Indentificar ou coletar dados -> Agregar os dados -> Funcionalidade
+
+				Exemplo: cozinhar.
+					
+					* Identificar os ingredientes
+					* Determinar as etapas (sequêncial ou paralelo)
+					* Executar cada etapa
+					* Agregar os ingredientes para finalizar (Recompor com coerência)
+
+				Exemplo: funcionamento de uma bike 
+					
+					* Identificar os componentes 
+					* Papel de cada componente		- Funcionamento do sistema
+					* Interdependência das peças 
+
+				Exemplo: criar um app
+			
+					* Finalidade
+					* Interface			Definição de componentes e etapas		"Desenvolvimento mais eficiente"
+					* Funcionalidades
+					* Pré-requisitos 
+
+				Exemplo: artigo
+				
+					* O que será abordado? 
+					* Estrutura
+					* Conteúdo de cada tópico	Definição de componentes e etapas		"Sequêncial ou paralelo em ordem ou não" 
+					* Texto de conexão 
+
+
+	Pilares: Padrões
+
+		Reconhecimento de Padrões
+	
+			* Modelo base
+			* Estrutura invariante
+			* Repetição				"Similaridades e diferença"		
+
+				
+		Porque determinar padrões? 
+			
+			Generalizar, com objetivo de obter resolução para problemas diferentes.
+			
+				* Classes 
+				* Categorias: Tipo de media, Dependem do domínio
+
+			Pelo ser Humano
+		
+				* Grau de similaridade
+				* Grupos conhecidos x objeto desconhecido 
+
+			Como o computador reconhece padrões?
+	
+				Representação de atributos
+				Aprendizado -  conceito associado ao objeto
+				Armazenar dados
+				Regras de decisão
+	
+				
+		Em resumo...
+			
+			Extração de características |
+							    | Abordagem
+			Classificação de dados      |
+
+
+				Diferentes = Métodos 
+						 Aplicações
+	
+			
+			Aplicações:
+
+				* Classificação dados
+				* Reconhecimento de imagem
+				* Reconhecimento de fala
+				* Análise de cenas
+				* Classificação de documentos
+					
+					Area que ultilização de reconhecimento de padrões.
+		
+						* Machine Learning 
+						* Redes Neurais
+						* Inteligência Artificial 
+						* Ciência de dados 
+					
+	Pilares: Abstração
+
+		"Abstrair"
+
+			Observar, um ou mais elementos, avaliando características e propriedades em separados
+
+		"Abstração"
+			
+			Processo intelectual de isolamento de um objeto da realidade.
+
+		"Generalizar"
+	
+			Tornar-se geral, mais amplo, extensão.
+
+
+		Abstração: Como classificar os dados?
+		
+			* Características
+			* Pontos essenciais 
+			* Generalizar x Detalhar
+	
+					
+	Pilares: Algoritmos
+
+			Processamento de dados: O computador recebe, manipula e armazena dados.
+
+		Programas -> Instruções
+
+			Processo de resolução de problemas "step by setp" utilizando instruções
+
+
+				O que precisa ser feito ?
+									-> Instruções
+				Qual a ordem de execução ?
+
+					"O algoritmos precisa ser entendido por um humano e maquina."
+
+		Desenvolvimento do Programa:
+			
+			* Análise = Estudo e definição dos dados de entrada e saída.
+			* Algoritmo = Descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo.
+			* Codificação = O algoritmo é codificado de programação escolhida
+		
+			
+		- Sequência de passos com objetivo definido 
+		- Execução de tarefas específicas
+		- Conjunto de operações que resultam em uma sucessão finita de ações
+
+		
+		Exemplos de Algoritmos no dia a dia:
+
+			* Preparar um sanduiche 
+			* Trocar uma lâmpada 
+			* Trajeto ao trabalho
+			* Fazer uma receita de bolo
+		
+				"Instruções executadas passo a passo para concluir a tarefa"
+
+		Como construir um algoritmo? 
+
+			* Compreenção de problemas = pontos mais importantes
+			* Definição dados de entrada = dados fornercidos e cenário
+			* Definir processamento = calculo e restrições
+			* Definir dados de saída = após processamento
+			* Utilizar um método de construção = construção e refinamento de algoritmo
+			* Teste e diagnóstico 
+
+		Construção de algoritmo.
+
+			Narrativa = Utilização da linguagem natural (Diversas interpretações possiveis)
+			Fluxograma = Utilização de símbolos pré-definidos (Conhecimento prévio da estrutura e simbolos)
+			Pseudocódigo = Portugol (Passos a serem seguidos)
+
+
+	Etapa 01
+
+
+	Introdução à Lógica de Programação
+			
+
+		Objetivo Geral:
+		
+			Esta aula foca em apresentar o conceito de lógica aplicada à programação, como um processo de pensamento atrelado ao conceito de algoritmos e resolução de problemas.
+	
+		O que é logica ?
+
+			Definição formal:
+				
+				"Porblema é uma questão que foge a uma determinada regra, ou melhor é um desvio de percurso, o qual impede de atingir um objetivo com eficiencia e eficácia."
+			
+			Definição formal de lógica: 
+
+				"Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc.) e das operações intelectuais que visam à determinação do que é verdadeiro ou não."
+				
+				"Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa."
+
+		Seres humanos podem prever comportamentos, computadores não. -> Instrução detalhada
+		
+
+	
+	
+	Etapa 02 
+
+
+	Técnicas de Lógica de Programação
+
+		
+		Técnicas Linear
+		
+			* Modelo Tradicional
+			* Não tem vínculos
+				* Estruturas hierárquicas
+				* Programação de computadores
+
+
+			O que se entende de Técnica Linear ? 
+		
+				Execução sequenciada
+				Recursos limitados		"Ordenação de elementos por uma única propriedades"
+				Única dimensão
+		
+
+	
+		Técninas Estruturada 
+
+			Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato). Estrutura
+
+			
+				Objetivo = 	Escrita: Processamento de dados (Programação)
+						Entendimento 
+						Validação 
+						Manutenção
+		
+
+		Técnias Modular 
+
+			Partes independentes controladas por um conjunto de regras.
+
+
+				Dados de entrada -> Processo de Transformação -> Dados de saída
+
+				Metas = * Simplicação
+					  * Decompor o problema 
+					  * Verificação do módulo
+
+
+
+	Fundamentos de Algoritmos
+
+
+		Tipologia e Variáveis
+			
+			Obejtivos: Nesta auala serão apresentados os conceitos básicos para o correto entendimento de algoritmos.
+				     Esses conceitos como, variáveis, tipos de dados, instruções, condições, entre outros temas relacionados.
+
+
+			Etapa 1: Tipologia e variáveis
+			Etapa 2: Instruções primitivas
+			Etapa 3: Estruturas condicionais e operadores
+			Etapa 4: Estruturas de repetição
+			Etapa 5: Vetores e matrizes
+			Etapa 6: O que são funções? 
+			Etapa 7: Instruções de entrada/saída
+
+			
+		Etapa 1: Tipologia e variáveis
+
+			Qual a função do computador?
+		
+				Informação -> Dados = Tratados e processadas (tipos de dados: Numéricos(Inteiros e Reais), Caractéres(A, #, p, C, e, !), Lógicos(Lógico Verdeiro - 1, Falso - 0 Booleano .Verdadeiro .V ou .S .Falso .F ou .N   Português estruturado)
+						  Instruções = Operações
+
+
+
+			O que é uma Variavel? 
+
+				Incerto, Inconstante, Mutável e Possui variações. 
+
+				Variável = Pode assumir qualquer um dos valores de um determinado conjunto de valores.
+				
+					a - b = d / a + b = c
+
+				Regras:
+
+					* Atribuição de um ou mais caracteres
+					* Primeira letra - não número
+					* Sem espaços em branco
+					* Vedado 
+						* Utilização de palavras reservadas
+					* Caracteres e números
+
+
+						Nome da variável, exemplo: x2, Nome_usuario, telefone, Z4, user12.
+
+
+				Papéis de uma variável: Ação = Modificação de estado
+								Controle - Viagiada, controle
+
+			
+
+				
+		Etapa 2: Instruções primitivas.
+
+			Definição Formal
+			
+				Instruções são linguagem de palavras-chave (vocabulário) de uma determinada de programação que tem por finalidade comandar um computador que irá tratar os dados.
+
+			Linguagens de programação 
+
+				Notação -> Operações
+
+					Janela, Window, Ventana > uma casa.
+
+			Entrada, processamento e saída.
+
+
+		Etapa 3: Estruturas condicionais e operadores.
+			
+			Estado de uma pessoa ou coisa  <- Condição
+
+			Condicional -> Que expressa uma condição ou suposição.
+					   Contem ou implica uma suposição ou hipótese.
+
+			Operadores Relacionais:
+	
+				= (Igual a)
+				<> (Diferente de) 
+				> (Maior que)
+				< (Menor que)
+				>= (Maior ou igual)
+				<= (Menor ou igual)
+
+			Operadores Lógicos:
+
+				AND / OR / NOT
+			
+				Quando ultilizar ?
+			
+					* Verificação de V e F
+					* Substituição
+						* encadeamento de condições.
+
+					AND - Operador Lógico
+
+						Condição verdadeira:
+						
+							* Todas devem ser satisfeitas
+
+								Condição 1 / Condição 2 / Resultado
+								Falso 	 Falso	  Falso
+								Verdadeiro	 Falsa        Falso 
+								Falso 	 Verdadeiro   Falso
+								Verdadeiro   Verdadeiro	  Verdadeiro
+			
+						Ex: Curso de Inglês
+
+							se (gramatica .e .conversacao) então escreva "aprovado"
+								senão 
+									escreva "Reprovado"
+
+
+					OR - Operador Lógico
+
+						Condição verdadeira
+							
+							* Apenas uma das condições deve ser verdadeira 
+
+								Condição 1 / Condição 2 / Resultado
+								Falso 	 Falso	  Falso
+								Verdadeiro	 Falsa        Verdadeiro
+								Falso 	 Verdadeiro   Verda
+								Verdadeiro   Verdadeiro	  Verdadeiro
+
+						Ex: 
+
+							se (choveu .ou .grama_molhada) então escreve "Plantas regadas"
+								senão
+									escreva "Regar plantas"
+				
+					NOT - Operador Lógico
+
+						 * Operador de negação 
+						 * Inversão do resultado lógico
+				
+								Condição    /   Falso 
+								Verdadeiro	    Falso
+								Falso		    Verdadeiro
+
+						Ex: Not B -> tudo o que não está em B
+
+				
+		Etapa 4: Estruturas de repetição
+
+				Trecho de um programa
+
+					"Laços, Controle de fluxo, Malhas de repetição, Repetição, Loop"
+
+				Condições de parada
+
+					* Número de repetições pré-fixada
+					* Condição a ser satisfeita
+
+				Qual é a vantagem de usar uma estrutura de repetição?
+				
+					Redução de linhas
+					Compreensão facilitada
+					Redução de erro
+					
+						Ex: Enquanto					grama = Falso
+
+							Teste Lógico				Enquanto (grama == falso) faça
+								* Início
+
+							Número de repetições 			<instrução de cortar grama>
+								* indefinidas			<atualiza grama>
+
+													fim enquanto
+
+
+						Ex: Repita 						Procurar artigo - 3 passo
+
+							 Teste Lógico				Virar página - 2 passo
+								* Final
+													Analisar conteúdo - 1 passo
+							 Número de repetições
+								* indefinidas
+
+
+						Ex Para de até (for)				somatorio = 0
+								
+							Teste 					para inicio = 1 até 10
+								* Início
+														somatorio = somatorio + inicio
+							Número de repetições				Escreva somatorio
+								* Definidas				
+													fim para
+
+		
+			Eu consigo mesclar uma estrutura dentro de outra ?
+
+				Sim: Enquanto (<condição>)
+		
+					 Se (<consição2>)
+					    <instruções>
+
+					 fimse 
+
+					 ...
+		
+					fim enquanto
+
+
+
+		Etapa 5: Vetores e matrizes
+
+				Numéricos: 	inteiros = 0,1,5,50,60,800..
+						reais = 5.95, 9.54, -8.8, -0.555...
+
+			Definição formal
+	
+				"Um vetores é caracterizado por uma varial dimensionada com tamanho pré-fixado."
+
+				"Matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical)""
+
+
+			Ex: Média escolar	
+		
+				nota11 = 10
+				nota21 = 5
+				
+				nota12 = 7 
+				nota22 = 8 
+
+			-----------------------------
+			
+				notas_aluno1 = [10,5]
+				nitas_aluno2 = [7,8]
+			
+			------------------------------
+
+				notas_alunos = [10,5,7,8] -> a cada duas posições um novo aluno
+
+
+
+
+		Etapa 6: O que são funções?
+
+			"Subalgoritmo" "Subprograma" "Bloco" "Função" "Sub-rotina" "Método"
+
+			Similiar ao conceito de função matemática:
+
+				f: A -> B
+
+			Definição formal:
+
+				As funções, ou sub-rotinas são blocos de instruções que realizam tarefas específicas.
+
+				São blocos de instruções (códigos), identificados por NOMES e PARÂMETROS
+
+			Função ? Não é mais fácil fazer tudo junto ?
+
+				Modularização do programa 
+				Código mais claro e conciso
+				Reutilização de instruções
+
+			O que temos atrelado a uma função ?
+
+				
+				Definição		-
+				Nome			- São blocos de instruções (códigos), identificados por NOMES e PARÂMETROS	
+				Invocação		-
+				Váriavel local	-	
+					- São destruidas ao encerrar a função
+
+
+
+			Qual o ganho que teremos ao fazer essa modificação?
+
+				Reutilização de código
+
+					Média escolar
+						
+						função mediaescolar(nota1,nota2)
+
+							resultado = 0 
+							resultado = (Nota1 + Nota2)/2
+
+							retorne resultado
+
+							fim funcao
+			
+							-----------------------------
+
+							aluno1 = mediaescolar(nota11,nota21)
+							aluno2 = mediaescolar(nota12,nota22)
+							aluno13 = mediaescolar(nota13,nota23)
+
+
+
+		Etapa 7: Instruções de entrada/saída
+
+			Dados -> Processamento (computador) -> Resultado
+
+			Definição formal - Instruções de entrada
+
+				Consiste na inserção é recebimento de dados do mundo real por meio de ação de alguma interface, eja teclado, mouse, arquivos, entre outros.		
+			
+			Definição formal - Instrução de saída
+
+				Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface.
+
+				Os formatos podem variar simples arquivos binários até complexas Querys de banco de dados.
+
+
+			Existem dois tipos de saídas dentro de um programa (algoritmo) 
+
+				Saída programada -> Condicional e Incondicional
+
+				Saída por interrupção -> Denifida pelos periféricos
+
+			Casos
+
+				* Bem sucedidos
+				* Erro de sintaxe ou outro 			Saída na programação
+				* Erros de programação					   |
+				* Problemas com a interface				Código
+
+
+
+	Linguagens de Programação
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Referências
+
+			Algoritmos:
+
+				Livro Fundamentos de programação de computadores - Pearson
+				
+		
+		
+
+
+
+
+
+
+
+
+
