@@ -259,6 +259,221 @@ branco, esta blank, mas não empty
 
 		Funções de Ordem Superior
 
+	- Recebem outra função ou lambda por parâmetro.
+	
+	- Bastante úteis para a generalização de funções e tratamento de erros
+
+		val x = calculate(12,4, ::sum)
+		val y = calculate(12,4){a,b -> a*b}
+
+	
+	ex:
+
+	fun main() {	
+   	 	val z: Int
+     	z = calculate(34, 90){a,b -> a-b}
+      	println(z)
+	}
+
+	fun sum(a1:Int, a2:Int) = a1.plus(a2)
+
+	fun calculate(n1:Int,n2:Int, operation:(Int,Int)->	Int):Int{
+    	val result = operation(n1,n2)
+    	return result
+	}
+
+
+	Funções single-line e Funções/Extensões
+
+
+
+		-Prefixo Fun nomeDaFuncao(nome:Tipo)= retorno
+		-Função de uma única linha
+		-Infere o tipo de retorno
+
+	
+			private fun gettFullname(name:String, 				lastName:String) = "$name $lastName"
+
+		
+	Funções/Extensões
+
+		
+		-Prefixo Fun Tipo.nomeDaFuncao():
+		-Cria uma função que só pode ser chamada por um tipo específico, cujo o valor pode ser referenciado dentro da função atravez da apalvra this.
+
+
+	Estrutura de controle
+
+		-if/esle, when, elvis operator
+		-Pode ser utilizado tanto para controle quanto para atribuição
+		-Pode ser encadeado com múltiplas estruturas.
+
+	
+		if/esle:
+
+			if(expressão){
+				//bloco de codigo
+			}else if (expressão2){
+				//bloco de codigo
+			}else {
+				//bloco de codigo	
+			}
+
+
+		when:
+
+
+			when {
+				case1 -> {}
+				case2 -> {}
+				case3 -> {}
+				else -> {}
+				}
+
+	
+		elvis operator:
+
+			val a:Int? = null
+			val number = a ?: 0
+
+
+		
+
+	Atribuição
+
+
+		-O valor atribuído tem que estar na última linha do bloco
+		-A conficional pode não usar chavez se só fizer a atribuição
+
+		
+		ex: 
+	
+		val MaxValue = if (a > b) a else if (a < b) b else b
+
+			val minValue = if (a > b){
+				println("b($b) e o menor valor")
+				b	
+			}else if(a < b){
+				println("a($a)e o menor valor")
+				a
+			}else{
+				println("os valores são iguais")
+				b
+			}
+
+
+	
+	When
+
+	-Equivalente ao switch de outras linguagens
+	-Aceita tanto valores quanto condicionais 
+	-Aceita range como case
+
+		when {
+			a > b -> {}
+			a != b && a > c -> {}
+			b == 0 -> {}
+			else -> {}
+			}
+
+		when(year)
+			-4000.. 475 -> //Antiguidade
+			476.. 1452 -> //Medieval
+			1453.. 1789 -> //Moderna
+				currentYear -> //ano atual
+			}
+
+
+	Elvis Operator
+
+
+		-O mais próximo que a linguagem possui de um operador ternário
+		-Verifica se um valor é nulo e apresenta uma opção caso seja 
+		-Pode ser encadeado
+
+		ex:
+		
+		val a:Int? = null
+		val c:Int? = 9
+		var number = a?: b?: 0
+
+	Nesse caso, se o valor de a não for nulo, number recebe a. Se o valor de a for nulo e b não for nula, number recebe b se a e b forem nulos, number recebe 0.
+
+
+
+
+		Repetição
+
+	-While, do..while, for e forEach
+	-Estruturas similares ás convencionais em outras linguagens
+	-Aceita os comandos in, range, until, downTo, e step
+
+
+
+		while, do, for
+	
+	while (condição){}		
+
+
+	do{					
+		//bloco	
+	} while (condição)
+
+
+	for ( i in 0..20 step 2) {
+		println(i)
+	}
+
+
+			For
+
+	*for(varivellndexadora in/until/downTo faixa de valores/condicional step intervalo)
+	*in: conta do valor inicial até o valor final estabelecido
+	*Until: conta do valor atual até o valor estabelecido menos 1
+	*DownTo: conta de maneira decrescente
+	*Step: determina o intervalo da contagem
+
+	
+	for(i in 0..20 step 2) {
+		println(i)
+	}
+---------------------------------------------------------
+
+	for(i in 0 until 10) {
+		println(i)
+	}
+
+---------------------------------------------------------
+	
+	for (i in 10 downTo 0) {
+		println(i)
+	}
+
+---------------------------------------------------------
+
+	var text= "Kotlin"
+
+	for (letter in text) {
+		println(letter)
+	}
+---------------------------------------------------------
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
